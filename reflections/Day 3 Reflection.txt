@@ -1,0 +1,7 @@
+# Day 3 Reflection - Evolution of Cybersecurity
+
+The internet was clearly unprepared for the any kind of attack early on. Seeing how major breaches such as Equifax and the Colonial Pipeline caused systemic changes helped me connect theory to reality.
+
+An attack creates a lesson, which makes me wonder how many current systems are still exposed today to attacks that are unknown or unheard of, yet.
+
+The CIA triad is starting to become second nature. I can already spot when confidentiality vs. availability is being violated.
