@@ -1,0 +1,29 @@
+# Course 1 - Module 1: Welcome to Cybersecurity
+
+## What is Cybersecurity?
+- Cybersecurity = practice of protecting systems, networks, and data from unauthorized access or harm
+
+## Benefits of Cybersecurity
+- protects against internal/external threats
+- reduces expenses. cybercrime costs billions annually
+- maintain/improve business productivity
+- maintains brand trust
+
+## Common Job Titles !!!
+- SOC Analyst
+- Cybersecurity Analyst/Specialist
+- Information Security Analyst
+
+## Core Transferable Skills
+- Communication
+- Collaboration
+- Analysis
+- Problem Solving
+
+## Technical Skills
+- Programming Language
+- Understanding SIEM tools (Security Information Event Management) 
+- Computer Forensics 
+
+## Quiz Grade
+- 100% (first attempt)
