@@ -1,0 +1,51 @@
+# Course 1 – Module 2: The Evolution of Cybersecurity
+
+## How the internet evolved
+- designed for communication, not security
+- TCP/IP protocols assume trust 
+
+## Notable Cyber Attacks
+- Morris Worm (1988): First large-scale worm
+- Target Breach (2013): Stolen vendor credentials
+- Equifax (2017): Failed to patch vulnerability
+- Colonial Pipeline (2021): Ransomware caused major infrastructure shutdown
+
+## Common Attacks & Their Effectiveness
+- Types of Phishing
+	1. Spear Phishing (malicious email targeting specific group/people)
+	2. Business Email Compromise (email seems to be from familiar source to obtain financial advantage)
+	3. Whaling (target company executives)
+	4. Vishing (exploiting voice communication)
+	5. Smishing (use of texts)
+
+- Types of Malware
+	1. Virus (malicious code written to interfere with operations/cause damage to data or software)
+	2. Worm (self-replicating malware. in contrast to virus, does not need to be downloaded by user)
+	3. Ransomware (attack that encrypts data and demands payment to restore access)
+	4. Spyware (used to gather and sell info without consent)
+
+- Types of Social Engineering
+	1. Social Media Phishing (threat actor collects detailed info about target from social media)
+	2. Watering Hole (attacks website frequently visited by specific group of people)
+	3. USB Baiting (actor strategically places USB for employee to find/install)
+	4. Physical (impersonation of employee, customers, vendors)
+
+## 8 CISSP Security Domains
+1. Security and Risk Management - security goals/objectives, risk mitigation, compliance, business continuity, the law
+2. Asset Security - secures digital/physical assets. related to the storage, maintenance, retention, and destruction of data
+3. Security Architecture and Engineering - optimization of data security (eg. firewall, effective tools)
+4. Communication and Network Security - Manage/secure physical networks/wireless comm.
+5. Identity and Access Management - keeping data secure by following policies/manage physical assets
+6. Security Assessment and Testing - conducting security audits for risks, threats, vulnerabilities
+7. Security Operations - implementing preventative measures
+8. Software Development Security - secure coding practices, recommended guidelines for secure apps/services
+
+## Modern Threats
+- AI-generated scams
+- Deepfakes
+- Nation-wide threat actors
+- Zero-day vulnerabilities (flaw in software discovered by attackers before developers knowledge)
+
+## Quiz Grade
+- 100% (first attempt)
+
