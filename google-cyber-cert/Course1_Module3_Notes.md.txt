@@ -1,0 +1,55 @@
+# Course 1 – Module 3: Threats, Risks & Frameworks
+
+## Security Frameworks
+- guidelines for building plans to help mitigate risk/threats to data privacy
+
+## Purpose of Security Frameworks
+- Protect PII
+- Secure financial information
+- Identify security weaknesses
+- Manage organizational risks
+- Align security with business goals
+
+## Components of Security Frameworks
+- Identify/document security goals
+- Set guidelines to achieve goals
+- Implement security processes
+- Monitor and communicate results
+
+## Security Designs
+- CIA Triad
+- NIST Cybersecurity Framework (CSF)
+	- voluntary framework consisting of standards, guidelines, best practices to manage risks
+
+## Specific Controls, Frameworks & Compliance
+1. The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)
+	- applies to organizations wanting to work with US/NA power grid
+	- obligations to mitigate/report any risks to power grid
+2. The Federal Risk & Authorization Management Program (FedRAMP)
+	- US Federal govt program
+	- security assessments, monitoring, handling of cloud services
+	- consistency across govt sectors/3rd-party cloud providers
+3. Center for Internet Security (CIS)
+	- non-profit providing set of controls to safeguard systems/networks against attacks
+	- help organizations establish better plan of defence
+4. General Data Protection Regulation (GDPR)
+	- protects EU residents data and right to privacy
+	- breach of data must be informed to victim within 72 hours
+5. Payment Card Industry Data Security Standard (PCIDSS)
+	- international security standard for storing, accepting, processing, transmitting credit card info in secure environment
+	- to reduce CC fraud
+6. The Health Insurance Portability & Accountability Act (HIPAA)
+	- US Federal Law to protect patient health info
+	- Governed by 3 rules (Privacy, Security, Breach Notification)
+7. International Organization for Standardization (ISO)
+	- created for tech, manufacturing, and management across borders
+	- improve processes and procedures for staff retention, planning, waste, and services
+8. Systems & Organizations Controls (SOC Type 1, SOC Type 2)
+	- series of reports used to access organizational financial compliance and levels of risk
+	- covers confidentiality, privacy, integrity, availability, security, overall data safety
+
+## Ethics in Cybersecurity
+- Ethical Principles 
+	- Confidentiality (only authorized users can access assets or data. high level of respect to privacy)
+	- Privacy Protection (safeguard personal info from unauthorized use)
+	- Laws 
