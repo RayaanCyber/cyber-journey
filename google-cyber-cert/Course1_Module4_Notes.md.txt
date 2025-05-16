@@ -1,0 +1,31 @@
+# Course 1 – Module 4: Tools & Languages in Cybersecurity
+
+## Common Tools
+- Log: record of events 
+- Security Information & Events Management (SIEM): application that collects/analyzes log data to monitor critical activities
+- Playbook: manual providing details about organization operational actions
+- Network Protocol Analyzer (Packet Sniffer): captures and analyzes data traffic within network. keeps track of all data
+
+## Entry Level Analyst's Toolkit
+- SIEM Tools
+- Packet Sniffers
+- Playbooks
+
+## Types of Playbooks
+- Chain of Custody: documenting evidence possession/control during an incident lifecycle
+- Protecting/Preserving Evidence: properly working with fragile/volatile digital evidence
+
+## Linux, SQL, Python
+- Linux: open source operating system
+- Structured Query Language (SQL): used to create, interact with, and request info from database
+- Python: perform tasks that are repetitive and time-consuming. require a high level of detail/accuracy 
+
+## CLI Utilities
+- *ping:* test if system is reachable
+- *traceroute:* shows path to remote host
+- *ipconfig/ifconfig:* show IP configuration
+- *netstat:* view active network connections
+
+## Quiz Score
+- 97.22% (first attempt)
+
