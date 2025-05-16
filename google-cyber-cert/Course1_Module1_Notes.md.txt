@@ -4,6 +4,7 @@
 - Cybersecurity = practice of protecting systems, networks, and data from unauthorized access or harm
 
 ## Benefits of Cybersecurity
+- CIA Triad (Confidentiality, Integrity, Availability) 
 - protects against internal/external threats
 - reduces expenses. cybercrime costs billions annually
 - maintain/improve business productivity
