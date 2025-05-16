@@ -1,0 +1,5 @@
+# Day 4 Reflection – Threats, Risk, and Frameworks
+
+This module helped me understand the building blocks of security analysis. The idea that security requires both technical and administrative controls was a great reminder that cybersecurity is about people as much as systems.
+
+The portion on ethics reviews the notion that just because you have access, does not mean you should use it. That is a very important message that resonated with me from this module. 
