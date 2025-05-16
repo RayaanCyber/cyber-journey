@@ -1,0 +1,7 @@
+# Day 1 reflection - Welcome to Cybersecurity
+
+I have completed Course 1_Module 1 of the Google Cybersecurity Certificate. I have gained a new understanding of the real-world value of a SOC Analyst's job. 
+
+The CIA Triad is engrained in my mind at this point, and seeing how cybersecurity is not an individual effort. It is just as much about teamwork, communication, and the right tools.
+
+The first quiz of the course is complete with a 100% final grade on my first attempt, pushed my first set of notes to GitHub, and starting to think like a true cyber professional. 
