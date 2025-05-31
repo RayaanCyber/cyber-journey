@@ -1,0 +1,30 @@
+# Generative AI – Module 1: What is Generative AI?
+
+## What It Is:
+- AI that generates new high quality content: text, code, images, sound
+- Examples: ChatGPT, GitHub Copilot, DALL·E, ElevenLabs
+
+## Use Cases:
+- Email replies
+- Marketing copy
+- Code generation
+- Data summarization
+
+## Key Technologies:
+- Large Language Models (LLMs) & Supervised Learning
+- Neural networks and transformers
+
+## How LLMs Work:
+- Built by using Supervised Learning (Input A -> Output B) to repeatedly predit the next word
+- When large AI system is trained on a lot of data, we get a LLM like Chatgpt
+
+## Web-Based vs Software App Use of LLMs:
+- Web-based: Chatgpt, Bard, Bing Chat
+- Software-Based: email routing, document search
+
+## Risks:
+- Hallucinations: AI confidently making up facts
+- Bias: reflects bad data if not trained ethically
+
+Quiz Score:
+- 80% (First Attempt) 
