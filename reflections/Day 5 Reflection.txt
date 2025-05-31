@@ -1,0 +1,7 @@
+# Day 5 Reflection – Cyber Tools & First AI Module
+
+I’ve now completed the first course in the Google Cybersecurity Certificate! Learning about SIEMs, Wireshark, and how Python fits into defensive security was exciting — it gives me confidence that I’ll be using these tools soon.
+
+Also, I started the Generative AI course from Deeplearning AI. It’s wild that machines can now create images and emails that feel human. But I understand the risks too — hallucinations, bias, and misuse are real.
+
+I’m starting to see the overlap between cybersecurity and AI. That will make me a stronger analyst.
