@@ -1,0 +1,29 @@
+# Day 6 – First CLI Practice in Kali Linux
+
+## Commands Practiced:
+
+```bash
+whoami
+uname -r
+cat /etc/os-release
+pwd
+ls -la
+mkdir day6-lab
+cd day6-lab
+touch testfile.txt
+echo "This is my first Kali Linux lab" > testfile.txt
+cat testfile.txt
+history
+
+## What I Learned:
+
+- whoami: shows current user
+- uname -r: shows kernel version
+- cat /etc/os-release: shows Linux distro info
+- pwd: shows current directory
+- ls -la: lists files, including hidden ones
+- mkdir: creates directories
+- touch: creates files
+- echo > file: writes text into file
+- cat > file: displays file content
+- history: shows all commands run in this session
