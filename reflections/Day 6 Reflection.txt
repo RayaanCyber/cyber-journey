@@ -1,0 +1,7 @@
+# Day 6 Reflection - First CLI Practice in Kali Linux
+
+Today I completed my first real CLI lab inside Kalu. Running basic Linux commands helped me understand the file system and how SOC analysts work in a Linux-based environment. 
+
+I feel more comfortable using the terminal for creating files, navigating directories and using the 'history' commands. 
+
+Next, I want to explore more tools inside Kali and start applying what I learn to the TryHackMe labs. 
