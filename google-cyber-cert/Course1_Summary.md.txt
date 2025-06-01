@@ -1,0 +1,25 @@
+# Course 1 – Foundations of Cybersecurity: Summary & Reflection
+
+## What I Learned:
+
+- How cybersecurity protects systems, data, and networks
+- The roles of SOC Analysts, GRC Analysts, and Pen Testers
+- The CIA Triad and its real-world applications
+- The history of major cyberattacks (Target, Equifax, Colonial Pipeline)
+- Threats vs. vulnerabilities vs. risk
+- Key cybersecurity frameworks (NIST, ISO 27001)
+- Common security tools: SIEM, Wireshark, firewalls
+- The importance of Python and SQL in security work
+
+## My Biggest Takeaways:
+
+- Cybersecurity is a team effort — communication matters as much as tools.
+- Thinking like an attacker helps you defend better.
+- I now understand why continuous learning is critical in this field.
+
+## Next Steps:
+
+- Start *Course 2* Google: Play It Safe – Manage Security Risks 
+- Begin first *TryHackMe project lab* and document it
+- Keep building comfort in Kali Linux
+- Continue progressing in Generative AI course
