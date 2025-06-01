@@ -1,0 +1,35 @@
+## How Generative AI is Reshaping the Cybersecurity Landscape
+
+# The fast advancement of Generative AI is changing industries at an unexpected pace, and cybersecurity is no exception. While AI presents fantastic opportunities to strengthen defenses, it also introduces new risks that security professionals must understand to mitigate risks. 
+
+# In this essay, I will discuss both the offensive and defensive implications of Generative AI in Cybersecurity, and explore how security analysts can adapt to this evolving landscape. 
+
+## Emerging Threats Created by Generative AI
+
+# AI-Generated Phishing Email:
+One of the biggest risks is the use of Generative AI tools (eg. Chatgpt, other LLMs) to craft convincing phishing emails. In the past, phishing attempts were often easy to detect due to poor grammar, or obvious red flags such as incorrect spelling of the email sender address. AI can flawlessly generate personalized emails that are much harder for both users and automated filters to catch. 
+
+# Deepfakes/Social Engineering:
+AI-powered deepfake technology has given attackers the ability to create hyper realistic audio and video impersonations of public figures, high-level executives, and even personal contacts. These can be used in Business Email Compromise (BEC) attacks, fraudulent video calls, and voice phishing to trick targets into transactional fraud or revealing sensitive information. 
+
+# AI-Generated Malicious Code:
+AI-based code generation tools, while extremely helpful to developers, can also be abused to create malware or attack scripts. Open-source AI models may be trained specifically to develop malware to evade traditional defenses.
+
+## Defensive Applications of AI in Cybersecurity
+
+# AI-ENHANCE SIEM AND LOG ANALYSIS:
+Modern SIEM platforms are already using machine learning to reveal abnormalities that human analysts might miss. AI can analyze a large number of log data in real time, correlate events, and prioritize alerts based on severity. This alone dramatically improves threat detection and response time. 
+
+# AUTOMATED INCIDENT RESPONSE:
+AI-driven platforms can automate parts of the incident response process, such as triaging alerts, isolating compromised systems, and generating reports. This reduces the burden on SOC teams and enables faster containment of active threats. 
+
+# THREAT INTELLIGENCE GATHERING:
+AI tools can continuously scan open-source intelligence, the dark web, and other threat actor spaces for emerging indicators of compromise, tactics, techniques, and procedures (TTP). This intelligence can then be fed into detection systems to proactively defend against new attacks. 
+
+## Conclusion
+
+# Generative AI is neither good nor bad, it is a powerful force at hand. Cybercriminals are already leveraging it to increase the scale and sophistication of their attacks, while defenders must harness its capabilities to stay ahead.
+
+# As an aspiring cybersecurity analyst, I recognize that understanding AI’s potential is essential. By embracing AI-enhanced tools and continuously learning about new threats, I will be better prepared to defend organizations in a complex digital landscape. 
+
+
