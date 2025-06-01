@@ -1,0 +1,11 @@
+# Day 7 Reflection – Wrapping Up Course 1
+
+I just finished Course 1: Foundations of Cybersecurity.  
+
+This week, I went from knowing nothing about this field to understanding major concepts like threats, risks, frameworks, and SOC roles.
+
+I’m especially proud of building this GitHub repo as I go. It really helps me track progress and will look great when applying for jobs.
+
+Next, I’m excited to start Course 2 and my first real TryHackMe project. I want to get more comfortable with Kali and begin practicing real security tools.
+
+This is starting to feel like a career path I can actually achieve.
