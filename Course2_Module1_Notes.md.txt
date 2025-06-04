@@ -1,0 +1,58 @@
+### Course 2 - Module 1: Manage Security Risks
+
+# CISSP Security Domains 
+
+1. Security and Risk Management
+	- Risk Mitigation: process of having the right procedures and rules in place to reduce impact of risk
+	- Business Continuity: Org. ability to maintain productivity using risk disaster recovery plans
+
+2. Asset Security
+	- securing digital/physical assets
+	- Related to the storage, maintenance, retention, and destruction of data
+
+3. Security Architecture and Engineering
+	- protecting assets using tools, systems, and processes
+
+4. Communication and Network Security
+	- managing and securing physical networks/wireless comm.
+
+5. Identity and Access Management (IAM)
+	- users must follow established policies to control/manage assets
+	- Identification, Authentication, Authorization, Accountability
+
+6. Security Assessment and Testing
+	- conducting security control testing to monitor for risks
+
+7. Security Operations
+	- investigations and implementing preventative measures
+
+8. Software Development Security
+	- using secure coding practices
+
+# Threats, Risks, and Vulnerabilities
+
+- Low Risk Asset
+- Medium Risk Asset
+- High Risk Asset
+
+# Key Impacts
+
+- Financial
+- Legal
+- Reputation of org.
+
+# NIST Risk Management Framework (RMF):
+- Prepare
+- Categorize
+- Select
+- Implement
+- Assess
+- Authorize
+- Monitor
+
+## Quiz Scores:
+- CISSP Domains Quiz: 100%
+- Threats & Risks Quiz: 100%
+- Module 1 Challenge: 85% (all first attempt)
+
+
