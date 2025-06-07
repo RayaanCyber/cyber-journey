@@ -1,0 +1,7 @@
+# Day 8 Reflection – Course 2 Google Start + First TryHackMe Project
+
+I started Course 2 today of the Google Cybersecurity course and learned about the CISSP security domains. It’s cool to see how these domains organize all aspects of cybersecurity.
+
+I also completed my first full TryHackMe project → Introduction to Offensive Security.  
+
+I’m now looking forward to starting Intro to Defensive Security next.
