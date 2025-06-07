@@ -1,0 +1,16 @@
+# TryHackMe – Introduction to Offensive Security
+
+## Room Link:
+https://tryhackme.com/room/offensivesecurityintro
+
+## Key Concepts:
+
+- Offensive Security = proactive testing of systems
+- Ethical hackers require permission
+- The goal is to find weaknesses before attackers do
+
+## My Takeaways:
+
+- Offensive security is about staying one step ahead
+- Laws and ethics are critical. Never test without permission
+- Pen testers help organizations fix problems before attackers exploit them
