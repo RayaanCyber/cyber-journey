@@ -1,0 +1,62 @@
+### Frameworks 
+
+## Security Frameworks: guidelines for building plans to help mitigate risks/threats to data/privacy
+- NIST (CSF)
+- ISO/IEC 27001
+- CIS Controls
+
+## Controls: safeguards to reduce risks
+
+# Types of Controls:
+- Encryption: convert data from readable to encoded format
+- Authentication: verify who someone/something is
+- Authorization: grant access to specific resources within system 
+
+# Types:
+- Preventive: Stop incidents (e.g. firewalls, access control)
+- Detective: Find incidents (e.g. IDS, logs)
+- Corrective: Fix incidents (e.g. backups, patches)  
+
+# Categories: 
+  - Administrative: Policies, awareness training
+  - Technical: Software/hardware tools
+  - Physical: Locks, fences, surveillance
+
+## CIA Triad
+
+- Confidentiality: protect privacy
+- Integrity: ensure accuracy
+- Availability: ensure access
+
+## NIST Framework 
+
+# NIST CSF: voluntary framework of standards, guidelines, best practices to manage risk
+
+# 6 core functions
+- Govern
+- Identify
+- Protect
+- Detect
+- Respond
+- Recover
+
+## OWASP
+- minimize attack surface area
+- principle of least privilege 
+- defense in depth
+- separation of duties
+- keep security simple
+- fix security issues correctly
+
+#### REFER TO OWASP TOP 10 ####
+
+## Security Audit
+
+- Steps:
+  1. Plan
+  2. Collect info
+  3. Analyze gaps
+  4. Report & act
+
+
+
