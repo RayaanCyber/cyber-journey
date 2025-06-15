@@ -1,0 +1,12 @@
+# TryHackMe – Introduction to Defensive Security
+
+## Room Link:
+https://tryhackme.com/room/defensivesecurityintro
+
+## Objectives:
+- Understand defensive tools, SOC role, security logging
+
+## Key Concepts:
+- SOC = Security Operations Center
+- Tools: SIEM, IDS, antivirus, firewall
+- Preventive + detective strategies
