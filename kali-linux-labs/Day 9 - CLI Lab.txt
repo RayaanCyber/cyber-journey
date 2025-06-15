@@ -1,0 +1,31 @@
+# Day 9 – CLI Lab: netstat, ping, Nmap
+
+## Objective:
+To explore basic network commands and learn how to gather information about local and remote systems using Kali Linux.
+
+## Observations:
+
+netstat:
+
+Showed active listening ports.
+Protocols included tcp6 and udp.
+SSH (port 22) and localhost ports were visible.
+
+ping:
+
+All 4 packets were successfully received from 8.8.8.8.
+Indicates internet connectivity is working inside the VM.
+
+nmap:
+
+Open ports discovered:
+Port 22 → SSH
+Port 80 → HTTP
+Service versions identified: OpenSSH, Apache HTTPD
+Useful output for reconnaissance during assessments
+
+## Commands Used:
+
+netstat -tuln
+ping 8.8.8.8
+sudo nmap -sV scanme.nmap.org
