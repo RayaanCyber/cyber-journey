@@ -1,0 +1,73 @@
+# Kali Linux – Beginner CLI Cheat Sheet
+
+---
+
+## 🖥️ System Info
+
+```bash
+whoami             # Current user
+hostname           # Hostname of the system
+uname -r           # Kernel version
+uptime             # System uptime
+
+## 📂 Navigation & Files
+
+pwd                # Show current directory
+ls                 # List files
+cd foldername/     # Change directory
+cd ..              # Move up one directory
+mkdir folder       # Create new folder
+touch file.txt     # Create empty file
+rm file.txt        # Delete file
+
+## 🔐 User Management
+
+adduser newuser        # Create new user
+passwd newuser         # Set password
+sudo su                # Switch to root user
+id                     # Show user/group IDs
+
+## 🌐 Networking
+
+ip a                  # Show IP addresses
+ping 8.8.8.8          # Ping Google DNS
+netstat -tuln         # List open TCP/UDP ports
+ss -tuln              # Modern alternative to netstat
+
+## 🔍 Scanning Tools
+
+nmap -sV scanme.nmap.org        # Scan target for open ports + service versions
+nmap -A scanme.nmap.org         # Aggressive scan: OS detect, scripts, traceroute
+
+## 📦 Package Management
+
+sudo apt update        # Refresh package lists
+sudo apt upgrade       # Install all updates
+sudo apt install tool  # Install tool (e.g., nmap)
+
+## 🔎 Process Monitoring
+
+ls -l                 # View file permissions
+chmod +x script.sh    # Make file executable
+chown user:user file  # Change file ownership
+
+## 🛑 Killing Processes
+
+kill <PID>           # Kill process by ID
+killall firefox      # Kill all instances of Firefox
+
+## 🧼 Clear & Help
+
+clear                 # Clear terminal screen
+history               # Show command history
+man <command>         # Manual for command (e.g. man ls)
+
+## 🧠 Tip:
+
+Use tab to auto-complete commands, and ↑ / ↓ arrows to scroll through history.
+
+## ✅ Recommended Practice Tools
+
+- netstat and nmap for network visibility
+- ping to check connectivity
+- man to learn new commands
