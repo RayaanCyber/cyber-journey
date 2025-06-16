@@ -1,0 +1,12 @@
+# Day 10 – Nmap Advanced Scans
+
+## Commands Used:
+
+- sudo nmap -A scanme.nmap.org
+- sudo nmap -sC -sV scanme.nmap.org
+
+## Key Learnings:
+
+- `-A` detected OS + traceroute (aggressive scan)
+- `-sC -sV` runs default Nmap scripts for vulnerabilities
+- Useful for blue team recon and pen testing prep
