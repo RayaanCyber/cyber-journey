@@ -1,0 +1,32 @@
+# Course 2 – Module 3: Managing Security Risks
+
+## Logs and SIEM Tools
+
+# Common Log Source
+
+- Firewall Logs: record of attempted/established connections for incoming/outgoing traffic and requests
+- Network Logs: record of all devices that enter/leave the network. Records connections b/w devices/services
+- Server Logs: record of events related to emails, websites, file sharing. Includes actions such as login, password, username requests
+
+## SIEM Dashboard
+
+- interface user in SIEM systems to monitor security events, alerts, overall posture
+
+# Key Functions of a SIEM Dashboard
+
+- Centralized Monitoring: provides single point of access to view security data from across the network, firewalls, servers, applications, etc. 
+- Real-time Visibility: allows security team to see what's happening on the network as it happens leading to quicker response
+- Alerting and Prioritization: shows critical security events and alerts
+- Data Analysis and Correlation: allows for analysis and correlation of data from different sources to identify patterns/trends, potentially revealing hidden threats. 
+- Reporting and Auditing: tools for generating reports and conducting audits
+- Customization: Many SIEM systems allow for customization of dashboards to meet specific organizational needs and security requirements
+
+# Types of Dashboards:
+
+- Overview Dashboards: provide a high-level summary of the overall security status, often including key metrics/trends 
+- Alert Dashboards: displaying and managing security alerts, including alert summaries, trends, and details. 
+- Threat Intelligence Dashboards: information related to threat intelligence feeds, indicators of compromise (IOCs), and known attack patterns. 
+- User and Entity Behavior Analytics (UEBA) Dashboards: monitors user and system behavior to detect threats 
+- Compliance Dashboards: demonstrates compliance with various security regulations and standards
+
+# Module 3 Quiz Score: 93.3% (first attempt)
