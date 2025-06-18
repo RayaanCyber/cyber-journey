@@ -1,0 +1,39 @@
+# Module 1 - Chat With Your Data
+
+## Basic Queries 
+- provide basic context about database and ask clear questions
+- context must include info about database structure. Dont want AI to "guess"
+
+## Provide Table Structure
+- screenshots from database
+- text description of tables
+- CREATE TABLE statements
+- database diagrams
+
+## Key elements to include in prompt
+- database type/structure
+- table structure
+- clear analytical goal
+
+## Hallucinations
+- happen when AI lacks sufficient context
+- provide context by clearly specifying database type/version, client information, connection method
+
+## C.L.U.E Technique
+C: continuing established conversation
+L: Leveraging existing documentation
+U: Uploading context documents
+E: Exemplifying with sample inquires
+
+## The Flipped Interaction Pattern
+- instructing AY to ask you questions
+
+# Advantages:
+- systematic information gathering
+- command generation
+- incremental understanding
+- error identification
+
+
+# Module 1 Final Grade: 100% (first attempt)
+
