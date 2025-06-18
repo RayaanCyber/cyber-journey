@@ -1,0 +1,9 @@
+# Day 10 Reflection
+
+I learned how to identify and manage security risks using the risk lifecycle and controls.
+
+TryHackMe helped clarify cybersecurity job paths. I’m most curious about blue team and GRC.
+
+Running `nmap -A` and `-sC -sV` in Kali gave me a clear picture of what an attacker can see during recon.
+
+The AI course was surprisingly relevant — using ChatGPT for SQL feels like a future tool I’d use in risk analysis or log parsing.
