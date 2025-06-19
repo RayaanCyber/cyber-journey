@@ -1,0 +1,16 @@
+# Google Cybersecurity Certificate – Course 2 Summary  
+**Title:** Manage Security Risks
+
+## What I Learned:
+- How to assess and prioritize risks using risk = threat × vulnerability × impact.
+- The purpose of business continuity planning (BCP) and disaster recovery.
+- The NIST Cybersecurity Framework and other models like ISO 27001 and CIS Controls.
+- Different control types: administrative, technical, physical.
+- How playbooks help guide incident response and align with the incident response lifecycle.
+
+## Key Terms:
+- Risk Assessment
+- Asset Inventory
+- Security Controls
+- Security Frameworks (NIST, ISO, CIS)
+- Incident Response Playbooks
