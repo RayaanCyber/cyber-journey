@@ -1,0 +1,61 @@
+# TryHackMe – Security Principles
+
+## CIA Triad:
+- Confidentiality: Prevent unauthorized access
+- Integrity: Ensure data is not altered
+- Availability: Ensure services are accessible
+
+## DAD:
+- The opposite of CIA
+- Disclosure: opposite of confidentiality
+- Alteration: opposite of integrity
+- Destruction/Denial: opposite of Availability 
+
+## Fundamental Concepts:
+
+- Bell-LaPadula Model
+	- Simple Security Property : referred to as “no read up”. subject at a lower security level cannot read an object at a higher security level. prevents access to sensitive information above the authorized level
+	
+	- Star Security Property : referred to as “no write down”. subject at a higher security level cannot write to an object at a lower security level. prevents disclosure of sensitive information to a subject of lower security level
+	
+	- Discretionary-Security Property : uses access matrix to allow read and write operations
+	
+- The Biba Integrity Model
+	- Simple Integrity Property : referred to as “no read down”. higher integrity subject should not read from a lower integrity object
+	
+	- Star Integrity Property : referred to as “no write up”. lower integrity subject should not write to a higher integrity object
+
+- The Clark-Wilson Model
+	- Constrained Data Item (CDI) : data type whose integrity we want to preserve
+
+	- Unconstrained Data Item (UDI) : all data types beyond CDI, such as user and system input
+
+	- Transformation Procedures (TPs) : programmed operations, such as read and write, and should maintain the integrity of CDIs
+
+	- Integrity Verification Procedures (IVPs) : check and ensure the validity of CDIs
+
+## Additional Principles:
+- Authentication vs. Authorization
+- Non-repudiation = Proof of origin
+- Defense in Depth = Multiple security layers
+- Least Privilege = Only give needed access
+- Zero Trust = Always verify, never assume
+
+## ISO/IEC 19249 Principles:
+- Domain Separation = Group components into separate domains with shared security attributes (e.g., OS in Ring 0, apps in Ring 3)
+- Layering = Multiple abstract levels to apply and validate security at each layer (e.g., OSI model, disk I/O abstraction)
+- Encapsulation = Hide internal workings and provide controlled access (e.g., use `increment()` method, APIs instead of direct access)
+- Redundancy = Backup components ensure availability and integrity (e.g., RAID 5, dual power supplies)
+- Virtualization = Share hardware across isolated systems for sandboxing and secure testing (e.g., virtual machines, cloud services)
+
+## ISO/IEC 19249 Design Principles:
+- Least Privilege = Only grant the minimum access needed (e.g., read-only access instead of write access)
+- Attack Surface Minimisation = Reduce vulnerabilities by disabling unused features/services (e.g., hardening a Linux system)
+- Centralized Parameter Validation = Validate all user input through a central system to prevent exploits (e.g., one validation library for all inputs)
+- Centralized General Security Services = Use centralized systems for security tasks (e.g., centralized authentication server)
+- Preparing for Error and Exception Handling = Design systems to fail safely and avoid leaking sensitive info in error messages (e.g., firewall blocks all traffic if it crashes)
+
+## Zero Trust vs Trust but Verify
+- Trust but Verify = Always verify the actions of trusted entities through logging and automated tools (e.g., proxy, IDS/IPS)
+- Zero Trust = Trust nothing by default. always authenticate and authorize, regardless of location or ownership (e.g., internal devices are not inherently trusted)
+
