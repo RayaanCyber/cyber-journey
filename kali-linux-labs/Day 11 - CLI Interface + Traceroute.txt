@@ -1,0 +1,11 @@
+# Day 11 – Network Interface + Traceroute Tools
+
+## Commands:
+- `ip a`: Shows network interfaces
+- `ifconfig`: Legacy interface viewer
+- `ip route`: Shows default gateway and routing info
+- `traceroute`: Maps path packets take
+
+## Observations:
+- `ip a` and `ifconfig` show device state + IPs
+- `traceroute` is essential for mapping network flow
