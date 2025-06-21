@@ -1,0 +1,54 @@
+# Course 3 – Module 1: Intro to Networks
+
+## What Is a Network?
+- A collection of devices connected to share resources.
+- Includes: routers, switches, firewalls, servers, endpoints
+
+## Network Types:
+- Local Area Network (LAN): network spans a small area (home, office)
+- Wide Area Network (WAN): spans large area (city)
+
+## Network Tools:
+- Hub: network device that broadcasts info to every device on network
+- Switch: device that connects specific devices on network by sending/receiving data between them. More secure than hub
+- Router: device connecting multiple networks together
+- Modem: device connecting router to internet, brings access to LAN
+- Wireless Access Point (WAP): sends/receives digital signals over radio waves creating a wireless network
+
+## Cloud Service Provider (CSP)
+- company that offers cloud computing services
+
+## 3 categories of CSP:
+- SaaS (Software as a service): company can use remotely without hosting software
+- IaaS (Infrastructure as a service): offers virtual components like storage. Managed via API or web-console
+- PaaS (Platform as a service): tools app designers can use to design custom apps for their company
+
+## Benefits of Cloud Computing:
+- Reliability: high availability, secure connections, consistent uptime for users/employees
+- Cost: lower upfront costs thanks to CSP-managed infrastructure, pay-as-you-go model
+- Scalability: easily scale resources up or down based on deman, only pay for what you need
+
+## Network Communication
+- Data Packet: basic unit of information that travels from one device to another on same network
+- Speed: rate which data packets are received/downloaded
+- Bandwidth: amount of data device receives every second
+- Packet Sniffing: capturing/inspecting data packets
+
+## TCP/IP Model
+- connects computers world-wide
+- TCP: internet communication protocol allowing two devices to form a connection/stream data
+- IP: standards used for routing/addressing data packets as they travel between devices
+- Port: software-based location that organizes the sending/receiving of data between devices on network
+
+## Common Port Numbers:
+- 25: email
+- 443: secure internet communication
+- 20: large file transfers
+
+## Four Layers of TCP/IP Model
+1. Network Access: handles physical transmission/local delivery (cables, MAC addresses, ARP)
+2. Internet: routes packets across networks using IP, supports troubleshooting with ICMP
+3. Transport: manages end-to-end communication using TCP (web-browsing) and UDP (video streaming)
+4. Application: interface with user apps/services
+
+## Module 1 Quiz Score: 87.50% (first attempt)
