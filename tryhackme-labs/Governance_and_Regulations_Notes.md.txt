@@ -1,0 +1,24 @@
+# TryHackMe – Governance and Regulation
+
+## What Is Governance?
+- Structure and policies that guide cybersecurity actions
+- Defines responsibilities and risk management practices
+
+## Regulations:
+- GDPR (Europe): Data protection law for EU citizens
+- HIPAA (US): Healthcare data privacy
+- PCI-DSS: Credit card industry standard
+- CCPA: California consumer privacy
+
+## Frameworks:
+- NIST CSF: US cybersecurity framework
+- ISO 27001: International information security standard
+- CIS Controls: Prioritized security practices
+
+## Compliance:
+- Avoids fines, builds trust
+- Requires audits, documentation, controls
+
+## Takeaways:
+- Regulations = what must be done
+- Frameworks = how to do it
