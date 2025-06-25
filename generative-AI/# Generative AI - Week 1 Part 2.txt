@@ -1,0 +1,14 @@
+# GenAI Applications
+
+## Use Cases:
+- Text: emails, legal docs, resumes
+- Images: design assets, AI avatars
+- Code: Copilot, SQL queries
+- Business: summaries, hiring support
+
+## Tool Types:
+- LLMs (text) + Diffusion (images)
+
+## Concerns:
+- AI hallucinations
+- Security in automation
