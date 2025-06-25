@@ -1,0 +1,9 @@
+# Day 12 Reflection
+
+The governance room helped me understand the legal backbone of cybersecurity. Now I understand why companies follow things like GDPR and PCI-DSS.
+
+My CLI lab was much deeper today. I learned not just how to run commands like ping and netstat, but why they matter and how they're used in real-world troubleshooting or threat hunting.
+
+The GenAI lesson opened my mind to practical tools I could integrate into a SOC environment.
+
+And today marked the launch of my first cybersecurity + AI project.
