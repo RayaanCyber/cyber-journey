@@ -1,0 +1,53 @@
+# Day 12 CLI Lab – ping, netstat, ss
+
+## Objective:
+To demonstrate the use of essential Linux networking tools for host availability testing, open port detection, and socket inspection.
+
+---
+
+## 1. ping google.com -c 4
+
+### Purpose:
+- Sends 4 ICMP echo requests to Google’s IP
+- Verifies DNS resolution and measures response time
+
+### Why It Matters:
+- First step in troubleshooting any network issue
+- Confirms connectivity and DNS functionality
+
+### Example Use Case:
+- A user can't reach a site, run ping to see if the server is reachable or if the problem is local
+
+---
+
+## 2. netstat -tuln
+
+### Purpose:
+- Displays all listening TCP/UDP ports in numeric form
+- Flags:  
+  - `t` = TCP  
+  - `u` = UDP  
+  - `l` = Listening  
+  - `n` = Numeric (no DNS lookup)
+
+### Why It Matters:
+- Lets you see which services are currently running and which ports they’re using
+- Commonly used during vulnerability assessments
+
+### Example Use Case:
+- You’re auditing a system to check if insecure services (e.g., telnet, FTP) are running and listening
+
+---
+
+## 3. ss -tuln
+
+### Purpose:
+- Replacement for `netstat`; faster and more reliable on modern systems
+- Shows the same data but with faster output and more filtering options
+
+### Why It Matters:
+- Used in production systems for socket diagnostics and live traffic snapshots
+- Good practice to use `ss` in newer Linux environments
+
+### Example Use Case:
+- You’re in a SOC and need a live snapshot of all open ports, `ss` gives you instant feedback
