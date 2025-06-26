@@ -1,0 +1,35 @@
+# Generative AI – Week 2, Part 1: Software Applications
+
+### Key Points:
+- GenAI is being integrated into tools people already use every day
+- It powers smart replies, email drafts, document formatting, etc.
+- Companies like Google, Microsoft, and Notion have embedded AI into their platforms
+
+### Examples:
+- Gmail: Suggests full email responses or rephrases tone
+- Notion AI: Summarizes meeting notes, rewrites paragraphs
+- GitHub Copilot: Converts comments into real-time code
+
+## Lifecycle of a Generative AI Project
+
+### 6 Stages of a GenAI Project:
+1. Problem Definition: Identify a task that can benefit from GenAI (e.g., email summarizing)
+2. Data Collection: Ensure enough clean data is available to train or prompt effectively
+3. Model Selection: Choose a model appropriate for your task (text, image, code, etc.)
+4. Prompt Design: Write effective instructions to get useful output
+5. Testing & Iteration: Experiment, refine prompts, and validate model behavior
+6. Deployment & Monitoring: Integrate into your software and track results in the real world
+
+## Cost Intuition
+
+### What Increases Cost:
+- Longer prompts (more tokens = more cost)
+- Multiple rounds of prompting (iterations, retries)
+- Larger models (like GPT-4 or Claude Opus) cost more per token than smaller ones
+
+### Ways to Optimize:
+- Shorten prompts without losing clarity
+- Use summarization tools to preprocess content
+- Use cheaper models when possible for less critical tasks
+
+Final Grade: 80% (first attempt)
