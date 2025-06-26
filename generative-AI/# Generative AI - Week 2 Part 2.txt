@@ -1,0 +1,31 @@
+# Generative AI – Week 2, Part 2: Advanced Technologies – Beyond Prompting
+
+## Retrieval Augmented Generation (RAG)
+
+### What It Is:
+RAG combines:
+- A retriever that finds relevant documents or knowledge
+- A generator (LLM) that uses those documents to write a response
+
+### Why It’s Important:
+- Solves the "knowledge cutoff" issue in LLMs (e.g. GPT-4 doesn’t know real-time events)
+- Reduces hallucinations by grounding answers in real sources
+
+### Real Use Case:
+- Customer support agents pull live company data from knowledge bases before generating a response
+
+## Fine-Tuning
+
+### What It Is:
+- Adjusting the weights of an LLM by training it further on specific domain data (e.g. cybersecurity logs, medical records)
+
+### Types of Fine-Tuning:
+1. Full fine-tuning (entire model retraining = expensive)
+2. LoRA or parameter-efficient tuning (lightweight fine-tuning = cheaper)
+
+### When You’d Do This:
+- When prompts alone can’t give accurate or domain-specific results
+- When working with proprietary jargon or workflows
+
+Final Grade: 80% (first attempt)
+
