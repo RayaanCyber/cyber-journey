@@ -1,0 +1,18 @@
+# TryHackMe – Cyber Kill Chain
+
+## The 7 Stages:
+1. Reconnaissance: discovering and collecting information on the system and the victim
+2. Weaponization: combines malware and exploit into a deliverable payload
+3. Delivery: method for transmitting the payload or the malware
+4. Exploitation: exploit the vulnerability to gain access to the system
+5. Installation: installing the threat
+6. Command & Control: remotely control and manipulate the victim
+7. Actions on Objectives: taking action on the original objectives
+
+## Cyber Application:
+- Mapping attacker behavior
+- Defenders use it to identify breach points and improve detection
+
+## Practical Value:
+- Understand where detection tools (IDS, antivirus) fit in
+- Useful for building your own SOC playbooks
