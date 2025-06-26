@@ -1,0 +1,59 @@
+# Day 13 Reflection – Full Summary
+
+Today was one of my most productive days yet. I worked across multiple learning areas and made big progress in both technical skills and how I think about cybersecurity.
+
+---
+
+## Google Cybersecurity Certificate – Course 3, Module 2
+
+I finished Module 2, which covered two key topics:
+1. **Introduction to Network Protocols** – I learned the basics of TCP, UDP, and ICMP, and how attackers can abuse these protocols in things like SYN floods or ICMP floods.
+2. **System Identification** – This taught me how to discover what systems exist on a network using IP addresses, MAC addresses, and fingerprinting tools like Nmap.
+
+I took notes, completed the quiz, and uploaded them to my GitHub.
+
+---
+
+## TryHackMe – Cyber Kill Chain Room
+
+I completed the Cyber Kill Chain room from the TryHackMe Cybersecurity Roadmap. This helped me understand the 7 stages of an attack, starting from Reconnaissance and ending with Actions on Objectives. It helped me start thinking like an attacker so I can learn how to defend against each phase. I took notes and saved my progress screenshot.
+
+---
+
+## Kali Linux CLI Lab – DNS Recon Tools
+
+I practiced using `whois`, `dig`, and `nslookup` in Kali Linux to simulate DNS reconnaissance. These tools are used in real-life red team and blue team environments to gather intelligence about domain names.
+
+I wrote detailed notes for each command, explaining what it does, why it's used, and how it relates to cybersecurity. I saved screenshots and committed them with full context to show that I understand *why* these tools matter — not just how to run them.
+
+---
+
+## Generative AI – Week 2 (Software + Advanced Technologies)
+
+I finished both parts of Week 2 in the "Generative AI for Everyone" course:
+- I learned how tools like Gmail, Notion, GitHub Copilot, and Zapier integrate GenAI to make software smarter and more useful.
+- Then I went deeper into advanced topics like Retrieval Augmented Generation (RAG), fine-tuning, model selection, and RLHF. These lessons helped me understand how AI tools work under the hood and what affects their performance and cost.
+
+I took detailed notes and committed them to the `generative-ai/` folder in my GitHub.
+
+---
+
+## Project 1 – AI + SQL Log Analysis Tool
+
+I made a lot of progress on my first real project:
+- I created a realistic system log CSV file to simulate login activity.
+- I documented what each column means and how this kind of log is used in real security teams.
+- I wrote my first manual SQL query to detect failed logins in the past 7 days and explained every part of the command.
+- I designed natural language prompts for an AI model to generate those same SQL queries.
+- I tested one of the prompts in ChatGPT and confirmed that it returned a correct SQL command.
+- I saved a screenshot, reflected on the differences, and documented everything clearly.
+
+This project showed me how cybersecurity, SQL, and generative AI can all work together to automate security tasks.
+
+---
+
+## Final Thoughts
+
+Today gave me a full view of how technical skills, tools, and AI can combine in real-world scenarios. I'm beginning to understand both the attacker’s mindset and the defender’s responsibilities. I also saw how AI can be more than a chatbot — it can be a serious partner in cybersecurity workflows.
+
+Most importantly, I’m not just copying commands anymore. I’m starting to understand the “why” behind them — and that’s a big step toward becoming a professional.
