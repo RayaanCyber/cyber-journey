@@ -1,0 +1,19 @@
+# DNS Recon Lab – whois, dig, nslookup
+
+## Why This Lab?
+
+- Simulates reconnaissance phase from both red team and blue team perspectives
+- Teaches how attackers gather intelligence and how defenders assess exposure
+
+
+## `whois`:
+- Gets registrar info, contact details, DNS servers
+- Use: See who owns the domain, expiration status, or if WHOIS privacy is active
+
+## `dig`:
+- Pulls DNS records (A, TXT, MX, etc.)
+- Use: Check email servers, subdomain visibility, or identify vulnerable TXT configs
+
+## `nslookup`:
+- Simple domain resolution + name server check
+- Use: Ensure DNS is resolving correctly; test alternate DNS servers
