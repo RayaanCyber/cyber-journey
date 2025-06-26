@@ -1,0 +1,46 @@
+# Course 3 – Module 2: Protocols & System Identification
+
+## Network Protocols
+- set of rules used by 2 or more devices on a network to describe the order of delivery/structure of data
+
+# Key Protocols
+- Transmission Control Protocol (TCP): allows 2 devices to form connection and stream data 
+- Address Resolution Protocol (ARP): determines MAC address of the next router or device on the path
+- Hyper Text Transfer Protocol Secure (HTTPS): provides secure method of communication between clients and website servers
+- Domain Name System (DNS): translates internet domain names into IP addresses
+- User Datagram Protocol (UDP): connectionless protocol that is much faster than TCP but no delivery is guaranteed
+- Simple Network Management Protocol (SNMP): used for monitoring and managing devices on a network
+- Internet Control Message Protocol (ICMP): used by devices to tell each other about data transmission errors/diagnostics
+
+## Firewalls
+- monitors traffic to and from network
+
+# Port Filtering: firewall function that allows/blocks certain port numbers to limit unwanted communication
+
+# Stateful: class of firewall that keeps track of information passing through, proactively filters out threats
+
+# Stateless: operates based on predefined rules, does not keep track of info from data packets
+
+## VPN
+- network security service that changes public IP address and hides virtual location to keep data private on public network
+
+# Encapsulation: process performed by VPN to protect data by wrapping sensitive data in other data packets
+
+## Security Zones
+- segment of network that protects internal networks from the internet
+
+# Network Segmentation: security technique that divides network into segments
+
+# Uncontrolled Zone: any network outside organizations control
+  
+# Controlled Zone: subnet that protects the internal network from uncontrolled zone
+
+## Proxy Server
+- server that fulfills the requests of client by forwarding them to other servers
+
+# Forward Proxy Server: regulates/restricts a persons access to the internet 
+
+# Reverse Proxy Server: regulates/restricts internets access to internal server
+
+## Module 2 Final Score: 100% (first attempt)
+
