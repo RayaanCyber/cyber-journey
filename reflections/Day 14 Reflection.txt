@@ -1,0 +1,9 @@
+# Day 14 – Reflection
+
+Today’s focus was on understanding how attackers break into networks and how defenders block them. The Google course helped me grasp real intrusion methods like port scanning, and how denial-of-service attacks can take down entire services. I now see how layered network defense works and why IDS and segmentation are so important.
+
+TryHackMe introduced me to Google Dorking and passive OSINT techniques, which felt powerful—like digital reconnaissance. I learned how attackers gather info without ever touching the system.
+
+The Linux lab helped me solidify how Linux systems control access with permissions and sudo. Each command gave me hands-on knowledge I can use in real forensic or system-hardening scenarios.
+
+I feel like today was a major turning point. I now understand more clearly how attackers think and how I can defend against them.
