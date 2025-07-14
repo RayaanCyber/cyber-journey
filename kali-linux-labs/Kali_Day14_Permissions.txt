@@ -1,0 +1,19 @@
+# Day 14 – Kali Linux CLI Lab: File Permissions & Sudo
+
+## ls -l
+Reveals rwx (read/write/execute) flags for user, group, and others. Used to audit file access.
+
+## chmod 755
+Grants full control to the file owner, and read/execute to everyone else. Common for executable scripts.
+
+## chown root:root
+Changes the file’s owner to root. Used when protecting critical system files from unauthorized edits.
+
+## id
+Shows your UID, GID, and group memberships. Helps confirm privileges or access levels.
+
+## sudo whoami
+Shows whether sudo works by temporarily switching to root. Real-world test for privilege escalation.
+
+## Why This Matters
+Linux permission errors are a common source of both misconfigurations and vulnerabilities. Mastery of these tools is essential for hardening systems.
