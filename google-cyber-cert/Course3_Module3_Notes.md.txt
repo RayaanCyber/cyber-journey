@@ -1,0 +1,19 @@
+# Google Cybersecurity – Course 3, Module 3: Network Intrusion Tactics & Defense
+
+## Network Intrusion
+- Attackers use tactics like packet sniffing, port scanning, session hijacking
+- Tools: Nmap, Wireshark
+- Goal: Gain access or map network weaknesses
+
+## Denial-of-Service (DoS) Attacks
+- Goal: Overload network or system resources to cause service failure
+- Methods: Flooding with ICMP, SYN flood, UDP flood
+- Mitigation: Rate limiting, firewalls, blackhole routing, CDN offloading
+- Packet sniffer: tool designed to capture/analyze data traffic withing a network 
+
+## Attack Tactics/Defense
+- Passive Packet Sniffing: attack where data packets are read inn transit
+- Active Packet Sniffing: attack where data packets are manipulated in transit
+
+Module 3 Final Score: 85% (first attempt)
+ 
