@@ -1,0 +1,21 @@
+# TryHackMe – Search Skills
+
+## What Are Search Skills?
+Used for passive reconnaissance in penetration testing, threat hunting, or OSINT gathering.
+
+## Google Dorking Operators
+- `site:` → search within a domain
+- `filetype:` → look for PDFs, .conf, .env
+- `intitle:` → search page titles
+- `inurl:` → locate admin panels or hidden pages
+
+**Example:**  
+site:gov filetype:pdf confidential
+
+## OSINT Tools
+- Google  
+- Shodan  
+- GitHub search (for secrets or public repos)
+
+## Why It Matters
+- Every cybersecurity role relies on search skills—from analysts scanning breaches to red teamers doing recon before an attack simulation.
