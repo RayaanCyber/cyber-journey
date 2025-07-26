@@ -1,0 +1,25 @@
+# Google Cybersecurity – Course 3, Module 4: Security Hardening
+
+## What is Security Hardening?
+Security hardening is the process of reducing vulnerabilities in systems, networks, or cloud environments by eliminating unnecessary features, securing configurations, and enforcing good practices.
+
+## OS Hardening
+- Disable unnecessary services and ports.
+- Use complex passwords and lock guest accounts.
+- Keep systems patched and logs enabled.
+- Remove default admin accounts or rename them.
+
+## Network Hardening
+- Disable unused ports on routers, switches, and firewalls.
+- Use secure protocols (e.g., HTTPS, SSH).
+- Implement IDS/IPS to detect and block malicious traffic.
+- Segment networks using VLANs or subnetting.
+
+## Cloud Hardening
+- Apply the principle of least privilege (use IAM roles).
+- Enable encryption (in transit and at rest).
+- Monitor activity via logging tools (like AWS CloudTrail).
+- Enable MFA for all cloud administrators.
+
+## Summary
+Hardening prevents attackers from exploiting known weaknesses. These are proactive defense strategies used by security analysts, sysadmins, and penetration testers.
