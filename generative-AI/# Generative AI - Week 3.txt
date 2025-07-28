@@ -1,0 +1,19 @@
+# Generative AI for Everyone – Module 3: Business and Society
+
+## Generative AI in Business
+- Automates writing, design, coding, and support tasks.
+- Helps teams produce content faster and at scale.
+- Used in areas like marketing, HR, and product design.
+
+## Risks for Businesses
+- AI outputs may contain factual errors or biased statements.
+- Legal issues may arise if AI-generated content violates copyright.
+- Overuse can make brands seem impersonal or spammy.
+
+## Generative AI in Society
+- Can improve education, accessibility, and communication.
+- But also risks spreading misinformation, replacing jobs, or reinforcing biases.
+- Needs responsible design, clear boundaries, and human oversight.
+
+## Summary
+Generative AI is a powerful tool, but it must be used carefully to avoid causing harm. It should help people—not replace them.
