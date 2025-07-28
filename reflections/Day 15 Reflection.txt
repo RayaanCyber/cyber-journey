@@ -1,0 +1,9 @@
+# Day 15 – Reflection
+
+I focused only on Coursera today to keep my learning organized and clear. In the Google course, I finally understood what "hardening" really means. It’s about closing all the digital doors that hackers might sneak through. I learned how to do that for operating systems, networks, and cloud systems.
+
+What helped me most was writing a checklist for a fake company. It made me realize how these concepts work in real life.
+
+In the AI course, I learned that tools like ChatGPT can help small businesses run more efficiently, but only if they're used properly. There are real risks if people trust AI too much or don’t check its work. I practiced this by writing a use case and seeing how AI could help a small bookstore owner.
+
+Each thing I wrote today helped me understand better. This approach feels slow but strong.
