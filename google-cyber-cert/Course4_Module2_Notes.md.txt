@@ -1,0 +1,19 @@
+# Google Cybersecurity – Course 4, Module 2: The Linux Operating System
+
+## What is Linux?
+- An open-source, Unix-like operating system
+- Powers most servers, cloud environments, and security tools
+- Preferred in cybersecurity because of its stability and CLI-based control
+
+## Key Linux Components
+- **Kernel**: Core of the OS, manages hardware and processes
+- **Shell**: Interface that takes commands from the user
+- **File System**: Hierarchical structure, root `/` at the top
+- **Processes**: Programs running in memory
+- **Permissions System**: Controls who can access files (user/group/other)
+
+## Linux Distributions
+- **Ubuntu/Debian**: Popular for servers and desktops
+- **CentOS/Red Hat**: Enterprise and cloud environments
+- **Kali Linux**: Specialized for cybersecurity and penetration testing
+
