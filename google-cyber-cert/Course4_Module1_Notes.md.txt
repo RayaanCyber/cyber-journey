@@ -1,0 +1,24 @@
+# Google Cybersecurity – Course 4, Module 1: Introduction to Operating Systems
+
+## What is an OS?
+- Software that manages hardware and software on a computer.
+- Acts as a bridge between user and machine.
+
+## Types of Operating Systems
+- Windows (GUI-focused, used in offices)
+- Linux (CLI-focused, used in security, servers)
+- macOS (Unix-based)
+- Mobile OS: iOS, Android
+
+## Core OS Components
+- Kernel: Core program that controls everything
+- Shell: Command interface between user and kernel
+- File system: How files are organized
+- Processes: Running programs, managed by OS
+- Drivers: Let hardware talk to OS
+
+## OS at Work
+- BIOS (Basic Input /Output System): microchip[ containing loading instructions for the computer and is prevalent in older systems
+- UEFI (Unified Extensible Firmware Interface): contains loading instructions for computer and replaces BIOS on more modern systems 
+- Completing a task: User→Applications→OS→Hardware→OS→Applications→User
+
