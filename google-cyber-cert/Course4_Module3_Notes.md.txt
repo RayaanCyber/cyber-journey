@@ -1,0 +1,68 @@
+# Google Cybersecurity – Course 4, Module 3: Linux Commands in the Bash Shell
+
+## What is Bash?
+- Bash = Bourne Again Shell, the command-line interface used in Linux.
+- Allows direct text-based control of system functions.
+
+## Navigating the File System
+- `pwd`: Shows current directory  
+- `ls`: Lists contents of a directory  
+- `cd`: Changes directory  
+- `mkdir`: Creates a new folder  
+- `touch`: Creates a blank file  
+- `rm`: Removes files  
+- `rmdir`: Removes empty folders
+
+## Viewing File Contents
+- `cat`: Prints entire file  
+- `less` / `more`: Scroll through file output  
+- `head` / `tail`: View first or last lines
+
+## Searching
+- `grep`: Searches inside files for keywords  
+- `find`: Locates files and directories  
+- `locate`: Searches file database (may need to run `sudo updatedb` first)
+
+## Getting Help
+- `man [command]`: Shows manual page  
+- `[command] --help`: Displays quick help info
+
+## File Permissions
+- Permissions: type of access granted for file or directory
+- Permissions are represented by 10 character string
+- Read: read file control
+- Write: make modifications
+- Execute: execute files if they are programs
+- Permissions are given to 3 types of owners: users, groups, other
+
+# Viewing Permissions:
+- ls with options
+	- 'ls -a' = shows hidden files
+	- 'ls -l' = shows permissions, owners, group, size, mod times
+	- 'ls -la' = combines both
+
+# Change Permissions with 'chmod'
+chmod: adjusts permissions based on least privilege
+Syntax: chmod [user][operator][permissions] filename
+	- who: u (user), g (group), o (other)
+	- operators: + (add), - (remove), = (set capacity)
+	- permissions: r, w, x
+
+## Add/Delete Users
+sudo: allows temp elevated privileges without logging in as root
+Why avoid root login?
+	- has unlimited power, high risk of compromise
+	- mistakes are irreversible
+	- no record of who ran commands
+safer to grant sudo access only when necessary (least privilege)
+
+## Key User Commands
+useradd: adds new user
+usermod: modifies existing user
+userdel: deletes user
+chown: file ownership for users/groups
+
+## Linux Support
+man: displays detailed info about commands
+apropos: searches man page for keywords, useful when you dont know command name
+whatis: gives one line of description of a command
