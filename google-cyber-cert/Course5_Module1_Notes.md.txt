@@ -1,0 +1,67 @@
+# Course 5 – Module 1: Introduction to Asset Security
+
+## What, Why, How of Asset Security:
+
+- Asset: anything valuable to organizations
+- Why protect: loss/compromise effects CIA
+
+# Asset Classification:
+
+- Public: minimal damage if leaked
+- Internal: may cause operational issues if leaked
+- Confidential: could harm business if exposed
+: Highly confidential/Restricted: critical, need-to-know
+
+## Risks, Threats & Vulnerabilities
+
+- Risk: anything impacting CIA of asset
+- Threat: event negatively impacting asset
+- Vulnerability: weakness that is exploited by threat
+
+## Assets in a Digital World
+
+# States of Data:
+- Data in Use: data accessed by one or more users
+- Data in Transit: data travelling from one point to another
+- Data at Rest: data not currently accessed
+
+## Cloud Security
+
+# Cloud Based Services
+
+- Software as a Service (SaaS): front-end applications users access through web browser. Service providers host, manage, and maintain all the back-end systems for applications
+eg; Gmail email service, Slack, Zoom
+- Platform as a Service (PaaS): back-end app development tools client can access online. Developers use resources to write code and build, manage, deploy own apps. CSP hosts/maintains back-end hardware/software apps used to operate
+eg; Google App Engine platform, Heroku, VMware Cloud Foundry
+- Infrastructure as a Service (IaaS): customers given remote access to range of back-end systems hosted by CSP. includes data processing, servers, storage, networking resources, etc.
+
+# What is Cloud Security?
+
+- Focuses on protecting data, applications, and infrastructure of the cloud
+- Uses Shared Responsibility Model
+	- CSP Role: responsible for security of servers and infrastructure
+	- Clients Role: securing anything they control (Identity/Access Management)
+- Varying Responsibilities: division of responsibility depends on type of service being used
+
+# Cloud Security Challenges:
+
+- Misconfiguration: customers responsible for configuring own security environment
+- Cloud-native breaches: more likely to occur due to misconfiguration
+- Monitoring Access: may be difficult depending on client/level of service
+- Meeting Regulatory Standards: HIPAA, PCI DSS, GDPR
+
+## Elements of Security Plans
+
+- Policy: set of rules that reduce risk and protects info
+- Standards: references informing how to set policies
+- Procedures: step-by-step instructions to perform specific security tasks
+
+## NIST Framework (CSF)
+- Voluntary framework consists of standards, guidelines, best practices to manage risks
+
+# NIST CSF Components
+
+- Core: simplified version of functions/ duties of security plan
+	- identify, protect, detect, respond, recover
+- Tiers: provides security teams with way to measure performance across five functions of core
+- Profiles: provde insight into current state of security plan
