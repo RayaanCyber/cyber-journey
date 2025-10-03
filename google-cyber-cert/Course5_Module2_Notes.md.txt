@@ -1,0 +1,173 @@
+# Course 5 – Module 2: Protect Organizational Assets
+
+## Security Controls
+- Safeguards designed to reduce risks
+
+# Types of Controls:
+
+- Technical: encryption, MFA, etc.
+- Operational: maintaining day-to-day security environments
+- Management: policies, standards, procedures
+
+## The Data Lifecycle
+-Five Stages: collect, store, use, archive, destroy
+
+# Data Governance:
+- set of process outlining how organizations manage information
+
+- Purpose: creates policies to ensure data remains private, accurate, available, secure through its lifecycle
+
+- Key roles:
+	• Data Owner: decides who can access, edit, use, destroy information
+	• Data Custodian: safe handling, transport, storage of data
+	• Data Steward: maintains/implements governance policies
+
+## Cryptography
+- transferring information into form that unintended readers cant understand
+
+- Algorithm: set of rules used to solve a problem
+- Cipher: algorithm that encrypts information
+- Cryptographic Key: mechanism that decrypts ciphertext 
+
+- Brute Force Attack: trial and error process of discovering private information
+
+## Public Key Infrastructure (PKI)
+- encryption framework that secures the exchange of information online
+
+# PKI Process:
+- Exchange of encrypted information
+	• Asymmetric Encryption: use of public/private key pair for encryption/decryption of data
+	• Symmetric Encryption: use of single secret key to exchange information
+- Establish trust using system of Digital Certificates
+	• file that verifies identity of public key holder
+
+## Non-repudiation and Hashing
+
+- Hash Function: algorithm that produces code that cant be decrypted
+- Non-repudiation: concept that the authenticity of information cant be denied
+
+# Evolution of Hash Functions:
+- created to quickly search for data
+
+- How They Work: algorithms represent data of any size as small, fixed-sized values called Digests
+	• Hash Tables used to store/reference these values, making data retrieval more efficient/secure
+
+- Message Digest 5 (MD5): used to verify that a file sent over a network matched its source
+	• converts data unto 128-bit value, which appears as 32 characters long
+
+- Hash Collisions: vulnerability in hash functions where two different inputs produce same hash value
+	• possible becayse there are infinite number of inputs but finite amount of outputs
+	• when 2 different inputs produce same hash value
+
+- SHA Family (The Securing Hashing Algorithms): group of functions that create longer hash values to reduce risk of collision
+	• family includes SHA-1, SHA-224, SHA-256, SHA-384, SHA-512
+
+- Secure Password Storage:
+	• hashing used to secure passwords in database
+	• hash versions of passwords are stored to protect against attacks
+	• hash values can NOT be reversed, attackers cant get orignal pw
+
+- Rainbow Tables: files that contain pre-generated hash values for common pw's. Attackers use them to compare agaisnt stolen pw database to find matches
+
+- Salting: security measure that adds a random string of characters (a salt) to data before it is hashed. Makes each has unique
+
+## Access Controls and Authentication Systems
+
+- Access Controls: security controls managing, authorization, and accountability of information
+
+- AAA Framework: Authentication, Authorization, Accounting
+
+- Factors of Authentication:
+	• Knowledge: what the user knows
+	• Owenership: what the user possesses
+	• Characteristics: what the user is
+
+- Single Sign-On (SSO): technology that combines several different logins into one
+
+- Multi-Factor Authentication (MFA): security measure which requires a user to verify their identity in two or more ways to access a system or network
+
+# How They Work:
+
+- SSO: uses trusted 3rd-party to verify user identity. Achieved through exchange of enxrypted access tokens between the identity provider and the service provider
+
+- Protocols Used:
+	• LDAP (Lightweight Directory Access Protocol): primarily used for transmitting information on-premises
+	• SAML (Security Assertion Markup Language): used for transmitting information off-premises, such as in the cloud
+
+- Benefit: one access token can connect user to multiple applications
+
+- MFA: requires user to verify identity in 2 or more ways to access system/network
+
+- Benefit: effective security measure, especially in cloud environments where remote access is common. Reduces risk of authenticating threat actors by requiring forms of ID difficult to imitate or brute force
+
+# Mechanisms of Authorization:
+
+- Basic Auth: technology used to establish user request to access server
+
+-OAuth: open-standard authorization protocol that shares designated access between applications
+
+- API Token: small block of encrypted code that contains info about user
+
+# Why Audit User Activity:
+
+- Session: sequence of network HTTP basic auth requests/responses associated with the same user
+
+- Session ID: unique token that identifies a user and their device while accessing the system
+
+- Session Cookie: token that websites use to validate a session and determine how long that session would last
+
+- Session Hijacking: event when attackers obtain legitimate user session ID
+
+## Identity and Access Management (IAM)
+- collection of processes/technologies to manage digital identity
+- IAM and AAA are major models for managing user access
+
+- Goal: authenticate users, determine access privileges, track activities
+
+# Security Fundamentals:
+
+- Two fundamental security principles limit access
+	• Principle of Least Privilege (PoLP): limits individual access
+	• Separation of Duties (SoD): divides responsibilities among multiple people
+
+# Authenticating Users
+- requires proof that user is who they claim to be
+
+- Factors: knowledge, ownership, characteristics
+
+- Tools Used: login credentials, SSO, MFA
+
+- User Provisioning: process of creating/maintaining users digital identity to allow back-end systems to verify information
+
+- User Deprovisioning: remove user access rights when they should no longer have them
+
+# Granting Authorization
+- ensures right resources are available after authentication 
+- three common frameworks for handling authorization
+	• MAC, DAC, RBAC
+
+- Mandatory Access Control (MAC):
+	• strictest framework
+	• authorization based on strict need-to-know basis
+	• access granted manually by central authority/system admin
+	• also known as Non-Discretionary Control 
+	• commonly used in law enforcement, military, govt agencies
+
+- Discretionary Access Control (DAC)
+	• typically applied when a data owner decides appropriate levels of access
+
+- Role-Based Access Control (RBAC)
+	• auth determined by user role within organization
+
+# Access Control Technologies
+- tools that offer speed/automation for admins to monitor/modify access rights
+- decrease errors/potential risks
+- Typical IAM or AAA system consists of:
+	• a user directory
+	• tools for managing data
+	• authorization system
+	• auditing system
+
+
+
+
