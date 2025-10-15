@@ -1,0 +1,87 @@
+# Course 6 Module 1: Introduction to Detection and Incident Response
+
+## Incident Response Lifecycle
+- Identify → Protect → Detect → Respond → Recover
+
+- Incident: occurrence that actually or imminently jeapordizes, without lawful authority, the confidentiality, integrity, or availability of information or an information system; or constitutes a violation or imminent threat of violation of law, security policies, security procedures, or acceptable use policies
+- Event: observable occurrence on a network, system, or device
+- Incident Handlers Journal: documentation used in incident response
+
+# The 5 W's of an Incident
+
+1. WHO triggered the incident
+2. WHAT happened
+3. WHEN the incident took place
+4. WHERE the incident took place
+5. WHY the incident occurred
+
+## Incident Response Teams
+
+- Computer Security Incident Response Teams (CSIRT): specialized group of security pro's that are trained in incident management/response
+
+# NIST Incident Response Lifecycle (4 phases)
+
+1. Preparation
+2. Detection and Analysis
+3. Containment, Eradication, and Recovery
+4. Post-incident activity
+
+# Key Roles in CSIRTs
+
+- Security Analyst: continuously monitor environment for threats. Analyze and triage alerts, perform root-cause investigations, escalate or resolve alerts
+- Technical Lead: manage all technical aspects of incident response. Determine root cause, create and implement strategies for containment, eradication and recovery
+- Incident Coordinator: coordinate with relevant departments. Ensure clear communication with departments 
+
+# Security Operations Center (SOC)
+
+- organizational unit dedicated to monitoring networks, systems, and devices for security threats
+- involved in blue team activities 
+- organized into tiered structure
+
+# SOC Roles
+
+- SOC Analyst Tier 1: initial alert monitoring and triage. Monitor, review, and prioritize alerts, create and close tickets, escalate tier 2/3
+- SOC Analyst Tier 2: deeper investigation and refinement of tools. Receive escalated tickets, configure and refine security tools, report to SOC Lead
+- SOC Lead Tier 3: managing team operations/advanced analysis. Manage team operations, explore new detection methods, perform malware and forensics analysis, report to SOC Manager
+- SOC Manager: hiring, training, and evaluating SOC team members
+
+## Incident Response Tools
+
+# Detection Tools
+- continuously monitor networks/systems for suspicious activity and trigger an alert to notify security professionals of a possible intrusion
+
+# 3 Main Detection Tools
+
+- Intrusion Detection System (IDS): monitors system activity/alerts on possible intrusions
+- Goal: detect malicious activity and generate an alert
+- Limitations: does not stop or prevent the activity
+- Examples: Zeek, Suricata, Snort, Sagan
+
+- Intrusion Prevention System (IPS): monitors system activity and takes action to stop the activity. Works similarly to IDS but also prevents activity to minimize effects
+
+- Endpoint Detection and Response (EDR): monitors an endpoint for malicious activity
+- Key Features: installed directly on endpoints. Collects, records, and analyzes endpoint data
+
+# Detection Categories (IDS Alerts)
+
+- True Positive: alert correctly detects the presence of an attack (GOOD)
+- True Negative: no alert triggered because no malicious activity exists (GOOD)
+- False Positive: alert incorrectly detects a threat (BAD)
+- False Negative: malicious activity happens, but IDS fails to detect it (BAD)
+
+## SOAR and SIEM Tools
+
+- Security Orchestration, Automation, and Response (SOAR): a collection of applications, tools, and workflows that uses automation to respond to security events
+
+- Security Information and Event Management (SIEM): application that collects/analyzes log data to monitor critical activities in organizations
+
+# The SIEM Process
+
+1. Collect/Aggregate Data: gathers log data from various sources. Consolidates all log data into a single, centralized location
+2. Normalize Data: transforms raw data from different sources into a standard, structured format that is easily searchable
+3. Analyze Data: applies detection logic to normalized data. Compares multiple log events to identify common patterns indicating potential threats
+
+# Common SIEM Tools
+
+- AlienVault, Chronicle, Elastic, Exabeam, IBM QRadar, LogRhythm, Splunk 
+
