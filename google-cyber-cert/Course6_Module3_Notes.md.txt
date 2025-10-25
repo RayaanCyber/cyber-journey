@@ -1,0 +1,45 @@
+# Course 6 Module 3 - Incident Investigation and Response
+
+## Detection Tools
+
+- tools only detect what they are configured to monitor, making additional methods essential for increased coverage/accuracy
+- IDS detects possible intrusions and sends alerts
+- SIEM tools detect, collect, and analyze security data
+
+## Threat Hunting
+
+- proactive, human-driven search for threats on a network
+- used to uncover malicious activity missed by tools
+- use threat intelligence, Indicators of Compromise/Attack, and machine learning
+
+## Threat Intelligence (TI)
+
+- evidence-based threat information providing context about threats
+- sources include industry reports, govt advisories, and threat data feeds
+- Threat Intelligence Platform (TIP): collects, centralizes, analyzes TI from different sources
+
+## Cyber Deception
+
+- techniques that deliberately deceive malicious actors to increase detection and improve defenses
+- Honeypots: decoy systems or resources created to appear vulnerable, attracting intruders, and alerting security teams when accessed
+
+# Ongoing Monitoring of CI/CD
+
+- Purpose: critical for protecting software supply chain by finding threats and IoC
+
+## Common IoC
+
+- Unauthorized Code Changes: changes by unapproved users, suspicious changes
+- Suspicious Deployment Patterns: deployments to unapproved systems
+- Compromised Dependencies: finding known vulnerabilities (CVEs)
+- Unusual Pipeline Execution: sudden pipeline failures
+- Secrets Exposure Attempts: logs showing attempts to access secrets
+
+## Automated Methods for finding IoCs
+
+- Pipeline Execution Logs: establish baseline of normal operation to flag deviations as potential IoC
+- Code Commit Logs: monitor for unusual authors, times, suspicious content
+- Access Logs: flag unusual logins
+- Deployment Logs: identify deployments at odd times
+
+- SIEM Integrations: used to find unusual patterns using machine learning 
